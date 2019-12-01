@@ -31,5 +31,6 @@ public class JDBCTest17 { // 执行DML update语句。
         } finally {
             DBUtil.close(conn, ps, null);
         }
+        System.out.println("你好啊");
     }
 }
