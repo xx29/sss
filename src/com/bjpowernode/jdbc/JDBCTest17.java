@@ -32,5 +32,10 @@ public class JDBCTest17 { // 执行DML update语句。
             DBUtil.close(conn, ps, null);
         }
         System.out.println("你好啊");
+        System.out.println("你好啊");
+        System.out.println("你好啊");
+        System.out.println("你好啊");
+        System.out.println("你好啊");
+        System.out.println("你好啊");
     }
 }
