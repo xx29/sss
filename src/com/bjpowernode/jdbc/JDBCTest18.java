@@ -11,5 +11,11 @@ package com.bjpowernode.jdbc;
 public class JDBCTest18 {
     public static void main(String[] args) {
         System.out.println("wo tianj l ");
+        System.out.println("wo tianj l ");
+        System.out.println("wo tianj l ");
+        System.out.println("wo tianj l ");
+        System.out.println("wo tianj l ");
+        System.out.println("wo tianj l ");
+        System.out.println("wo tianj l ");
     }
 }
