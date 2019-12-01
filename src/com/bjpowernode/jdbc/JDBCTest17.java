@@ -24,12 +24,25 @@ public class JDBCTest17 { // 执行DML update语句。
             ps.setString(1, "MANAGER");
             int count = ps.executeUpdate();
             DBUtil.commitTransaction(conn);
-            System.out.println("更新了"+count+"条记录");
+            System.out.println("更新了" + count + "条记录");
         } catch (SQLException e) {
             DBUtil.rollbackTransaction(conn);
             e.printStackTrace();
         } finally {
             DBUtil.close(conn, ps, null);
         }
+        System.out.println("你好啊");
+        System.out.println("你好啊");
+        System.out.println("你好啊");
+        System.out.println("你好啊");
+        System.out.println("------");
+        System.out.println("------");
+        System.out.println("------");
+        System.out.println("------");
+        System.out.println("你好啊");
+        System.out.println("你好啊");
+        System.out.println("你好啊");
+        System.out.println("你好啊");
+        System.out.println("你好啊");
     }
 }
